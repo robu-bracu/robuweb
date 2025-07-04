@@ -1,0 +1,28 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Robotics Club of BRAC University"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+description = 'Achieve your imagination through your robot"—the vision of the high-functioning sociopaths of ROBU!'
+dateFormat = "2 January 2006"
+logo = "robu.jpg"
+
+  [params.content]
+  title = "Summer 2025 Recruitments are open"
+  description = "Join BRACU ROBU and become a part of a growing community of enthusiasts"
+    [params.content.cta]
+    headline = "Register Today"
+    url = "https://google.com"
+
+  [params.author]
+  name = "Robu"
+  image = "img/avatar.png"
+  headline = "Robotics Club of BRAC University"
+  bio = "Achieve your imagination through your robot"
+
+    [[params.author.links]]
+    link = "https://bracu.ac.bd/"

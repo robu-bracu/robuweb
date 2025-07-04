@@ -1,0 +1,78 @@
+colorScheme = "neon"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+mainSections = [ "posts" ]
+firebase = { }
+fathomAnalytics = { }
+verification = { }
+defaultBackgroundImage = "."
+
+[header]
+layout = "fixed"
+
+[footer]
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "background"
+homepageImage = "img/bg.jpg"
+showRecent = true
+showRecentItems = 3
+showMoreLink = true
+showMoreLinkDest = "/blowfish_artist/posts"
+cardView = true
+cardViewScreenWidth = false
+layoutBackgroundBlur = true
+
+[article]
+showDate = true
+showDateUpdated = false
+showAuthor = true
+showHero = true
+heroStyle = "background"
+showBreadcrumbs = true
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = true
+showTableOfContents = true
+showTaxonomies = false
+showAuthorsBadges = false
+showWordCount = true
+showSummary = true
+sharingLinks = [
+  "linkedin",
+  "twitter",
+  "whatsapp",
+  "pinterest",
+  "reddit",
+  "facebook",
+  "email"
+]
+
+[list]
+showHero = true
+heroStyle = "background"
+layoutBackgroundHeaderSpace = false
+showBreadcrumbs = false
+showSummary = true
+showTableOfContents = false
+showCards = true
+groupByYear = true
+cardView = true
+cardViewScreenWidth = false
+
+[sitemap]
+excludedKinds = [ ]
+
+[taxonomy]
+showTermCount = true
