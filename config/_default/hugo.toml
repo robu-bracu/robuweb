@@ -4,6 +4,8 @@
 
 theme = "blowfish"
 baseURL = "https://imtiazkun.github.io/robu_website/"
+canonifyURLs = true
+
 defaultContentLanguage = "en"
 publishDir = "docs"
 
