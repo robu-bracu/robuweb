@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Robotics Club of BRAC University</title>
-    <link>/categories/</link>
+    <link>https://imtiazkun.github.io/robu_website/categories/</link>
     <description>Recent content in Categories on Robotics Club of BRAC University</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Robu</copyright>
-    <lastBuildDate>Fri, 04 Jul 2025 12:54:18 +0600</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jul 2025 12:54:18 +0600</lastBuildDate><atom:link href="https://imtiazkun.github.io/robu_website/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Blog</title>
-      <link>/categories/blog/</link>
+      <link>https://imtiazkun.github.io/robu_website/categories/blog/</link>
       <pubDate>Fri, 04 Jul 2025 12:54:18 +0600</pubDate>
       
-      <guid>/categories/blog/</guid>
+      <guid>https://imtiazkun.github.io/robu_website/categories/blog/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Post</title>
-      <link>/categories/post/</link>
+      <link>https://imtiazkun.github.io/robu_website/categories/post/</link>
       <pubDate>Fri, 04 Jul 2025 12:54:18 +0600</pubDate>
       
-      <guid>/categories/post/</guid>
+      <guid>https://imtiazkun.github.io/robu_website/categories/post/</guid>
       <description></description>
       
     </item>
