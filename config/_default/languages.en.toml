@@ -16,7 +16,7 @@ logo = "robu.jpg"
   description = "Join BRACU ROBU and become a part of a growing community of enthusiasts"
     [params.content.cta]
     headline = "Register Today"
-    url = "https://google.com"
+    url = "https://reg.bracurobu.com"
 
   [params.author]
   name = "Robu"
@@ -25,4 +25,4 @@ logo = "robu.jpg"
   bio = "Achieve your imagination through your robot"
 
     [[params.author.links]]
-    link = "https://bracu.ac.bd/"
+    link = "https://registration.bracu.ac.bd"
