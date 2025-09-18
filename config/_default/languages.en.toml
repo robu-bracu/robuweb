@@ -19,11 +19,3 @@ navbarBrand = "ROBU"
     headline = "Join the community"
     url = "/register"
 
-  [params.author]
-  name = "Robotics Club of BRAC University"
-  image = "img/avatar.png"
-  headline = "Robotics Club of BRAC University"
-  bio = "Achieve your imagination through your robot"
-
-    [[params.author.links]]
-    link = "https://registration.bracu.ac.bd"
