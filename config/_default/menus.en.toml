@@ -40,22 +40,26 @@
 
 
 
-[[main]]
-  identifier = "facebook"
-  pre = "facebook"
-  url = "https://www.facebook.com/BRACU.Robotics.Club"
-  weight = 50
-
-
-[[main]]
-  identifier = "instagram"
-  pre = "instagram"
-  url = "https://www.instagram.com/bracu_robu"
-  weight = 60
-
-
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
+
+[[footer]]
+  identifier = "facebook"
+  pre = "facebook"
+  url = "https://www.facebook.com/BRACU.Robotics.Club"
+  weight = 10
+
+[[footer]]
+  identifier = "instagram"
+  pre = "instagram"
+  url = "https://www.instagram.com/bracu_robu"
+  weight = 20
+
+[[footer]]
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://www.linkedin.com/company/brac-university-robotics-club/posts/?feedView=all"
+  weight = 30
 
 

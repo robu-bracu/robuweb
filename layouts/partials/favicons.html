@@ -1,0 +1,29 @@
+{{ $favicon := resources.Get "img/favicon.ico" }}
+{{ if $favicon }}
+<link rel="icon" type="image/x-icon" href="{{ $favicon.RelPermalink }}" />
+{{ else }}
+<link rel="icon" type="image/x-icon" href="{{ " favicon.ico" | relURL }}" />
+{{ end }}
+
+{{ $appleIcon := resources.Get "img/apple-icon-180x180.png" }}
+{{ if $appleIcon }}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ $appleIcon.RelPermalink }}" />
+{{ else }}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ " apple-icon-180x180.png" | relURL }}" />
+{{ end }}
+
+{{ $favicon32 := resources.Get "img/favicon-32x32.png" }}
+{{ if $favicon32 }}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}" />
+{{ else }}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ " favicon-32x32.png" | relURL }}" />
+{{ end }}
+
+{{ $favicon16 := resources.Get "img/favicon-16x16.png" }}
+{{ if $favicon16 }}
+<link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}" />
+{{ else }}
+<link rel="icon" type="image/png" sizes="16x16" href="{{ " favicon-16x16.png" | relURL }}" />
+{{ end }}
+
+<link rel="manifest" href="{{ " site.webmanifest" | relURL }}" />

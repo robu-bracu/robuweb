@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "ROBU"
+title = "ROBU - Robotics Club of BRAC University"
 
 [params]
 displayName = "EN"
@@ -10,6 +10,7 @@ rtl = false
 description = 'Achieve your imagination through your robot"—the vision of the high-functioning sociopaths of ROBU!'
 dateFormat = "2 January 2006"
 logo = "robu.jpg"
+navbarBrand = "ROBU"
 
   [params.content]
   title = "Robotics Club of BRAC University"
@@ -19,7 +20,7 @@ logo = "robu.jpg"
     url = "/register"
 
   [params.author]
-  name = "Robu"
+  name = "Robotics Club of BRAC University"
   image = "img/avatar.png"
   headline = "Robotics Club of BRAC University"
   bio = "Achieve your imagination through your robot"
