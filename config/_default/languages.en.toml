@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Robotics Club of BRAC University"
+title = "ROBU"
 
 [params]
 displayName = "EN"
@@ -12,11 +12,11 @@ dateFormat = "2 January 2006"
 logo = "robu.jpg"
 
   [params.content]
-  title = "Summer 2025 Recruitments are open"
+  title = "Robotics Club of BRAC University"
   description = "Join BRACU ROBU and become a part of a growing community of enthusiasts"
     [params.content.cta]
-    headline = "Register Today"
-    url = "https://registration.bracurobu.com"
+    headline = "Join the community"
+    url = "/register"
 
   [params.author]
   name = "Robu"

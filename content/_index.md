@@ -9,9 +9,12 @@ hero:
     file: "img/bg.jpg"
     alt: "Hero image"
   buttons:
+    - label: "Join us"
+      url: "/register"
+      is_primary: true
     - label: "Read Posts"
       url: "/posts/"
-      is_primary: true
+      is_primary: false
     - label: "About"
       url: "/about/"
       is_primary: false
@@ -27,4 +30,3 @@ showWordCount: false
 showSummary: false
 sharingLinks: false
 ---
-

@@ -14,11 +14,31 @@
   name = "Posts"
   pageRef = "posts"
   weight = 10
+  
+[[main]]
+  name = "Panel"
+  weight = 20
+  hasChildren = true
+  
+  [[main]]
+    name = "2025-2026"
+    pageRef = "panel"
+    parent = "Panel"
+    weight = 10
+    
+  [[main]]
+    name = "Hall of Fame"
+    pageRef = "panel/hall-of-fame"
+    parent = "Panel"
+    weight = 20
+
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 20
+  name = "Crews"
+  pageRef = "crews"
+  weight = 30
+
+
 
 [[main]]
   identifier = "facebook"
@@ -39,7 +59,3 @@
 # the copyright notice. Configure as per the main menu above.
 
 
- [[footer]]
-   name = "Tags"
-   pageRef = "tags"
-   weight = 10
