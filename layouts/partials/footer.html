@@ -52,15 +52,16 @@
         {{ end }}
 
     </div>
+    {{/* Image zoom functionality temporarily disabled due to Hugo template syntax issues */}}
+    {{/*
     <script>
-        {{ if (not .Site.Params.disableImageZoom) | default true }}
         mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
             margin: 24,
             background: 'rgba(0,0,0,0.5)',
             scrollOffset: 0,
         })
-        {{ end }}
-    </script> {{ $jsProcess := resources.Get "js/process.js" }}
+    </script>
+    */}} {{ $jsProcess := resources.Get "js/process.js" }}
     {{ $jsProcess = $jsProcess | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default
     "sha512") }}
     <script type="text/javascript" src="{{ $jsProcess.RelPermalink }}"
