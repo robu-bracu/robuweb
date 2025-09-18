@@ -1,10 +1,14 @@
 ---
 title: "Dimenzion: Connect in New Dimension"
-summary: "The Club Fair, under the theme “DIMENZION: Connect in New Dimension,” invites every club to showcase."
+summary: "The Club Fair, under the theme - DIMENZION: Connect in New Dimension invites every club to showcase."
 date: 2025-07-04T12:54:18+06:00
 categories: ["Post","Blog",]
 tags: ["club fair", "prototype", "july"]
 draft: false
+showAuthor: false
+authors:
+  - "imtiaz-al-shariar-shamrat"
+showAuthorsBadges: true
 ---
 
 ## Declaration

@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authors on ROBU - Robotics Club of BRAC University</title><link>https://www.bracurobu.com/authors/</link><description>Recent content in Authors on ROBU - Robotics Club of BRAC University</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Robotics Club of BRAC University</copyright><atom:link href="https://www.bracurobu.com/authors/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on ROBU - Robotics Club of BRAC University</title>
+    <link>http://localhost:1313/authors/</link>
+    <description>Recent content in Authors on ROBU - Robotics Club of BRAC University</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Robotics Club of BRAC University</copyright>
+    <lastBuildDate>Fri, 04 Jul 2025 12:54:18 +0600</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Imtiaz Al Shariar Shamrat</title>
+      <link>http://localhost:1313/authors/imtiaz-al-shariar-shamrat/</link>
+      <pubDate>Fri, 04 Jul 2025 12:54:18 +0600</pubDate>
+      
+      <guid>http://localhost:1313/authors/imtiaz-al-shariar-shamrat/</guid>
+      <description>&lt;p&gt;Member of The Graffiti Team at BRAC University Robotics Club (ROBU). Passionate about robotics, technology, and creative problem-solving.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

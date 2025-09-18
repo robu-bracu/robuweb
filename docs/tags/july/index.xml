@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>July on ROBU - Robotics Club of BRAC University</title><link>https://www.bracurobu.com/tags/july/</link><description>Recent content in July on ROBU - Robotics Club of BRAC University</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Robotics Club of BRAC University</copyright><lastBuildDate>Fri, 04 Jul 2025 12:54:18 +0600</lastBuildDate><atom:link href="https://www.bracurobu.com/tags/july/index.xml" rel="self" type="application/rss+xml"/><item><title>Dimenzion: Connect in New Dimension</title><link>https://www.bracurobu.com/posts/dimenzion-club-fairs-on-july/</link><pubDate>Fri, 04 Jul 2025 12:54:18 +0600</pubDate><guid>https://www.bracurobu.com/posts/dimenzion-club-fairs-on-july/</guid><description>The Club Fair, under the theme “DIMENZION: Connect in New Dimension,” invites every club to showcase.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.bracurobu.com/posts/dimenzion-club-fairs-on-july/cover.png"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>July on ROBU - Robotics Club of BRAC University</title>
+    <link>http://localhost:1313/tags/july/</link>
+    <description>Recent content in July on ROBU - Robotics Club of BRAC University</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Robotics Club of BRAC University</copyright>
+    <lastBuildDate>Fri, 04 Jul 2025 12:54:18 +0600</lastBuildDate><atom:link href="http://localhost:1313/tags/july/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dimenzion: Connect in New Dimension</title>
+      <link>http://localhost:1313/posts/dimenzion-club-fairs-on-july/</link>
+      <pubDate>Fri, 04 Jul 2025 12:54:18 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/dimenzion-club-fairs-on-july/</guid>
+      <description>The Club Fair, under the theme - DIMENZION: Connect in New Dimension; invites every club to showcase.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/dimenzion-club-fairs-on-july/cover.png" />
+    </item>
+    
+  </channel>
+</rss>
