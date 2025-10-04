@@ -5,6 +5,7 @@
 theme = "blowfish"
 baseURL = "https://www.bracurobu.com"
 canonifyURLs = true
+relativeURLs = false
 
 defaultContentLanguage = "en"
 publishDir = "docs"
