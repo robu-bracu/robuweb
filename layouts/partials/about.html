@@ -1,0 +1,53 @@
+{{ $aboutContent := .Site.Params.about }}
+{{ if $aboutContent }}
+<section class="py-16 bg-neutral-50/50 dark:bg-neutral-900/50  rounded-lg">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 rounded-lg">
+        <div class="flex flex-col lg:flex-row lg:items-start lg:gap-12">
+            <!-- Title and Description Section -->
+            <div class="lg:w-1/2 mb-8 lg:mb-0">
+                <div class="text-left">
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-neutral-800 dark:text-neutral-200 mb-4">
+                        {{ $aboutContent.title | default "About Us" }}
+                    </h2>
+                    <p class="text-base sm:text-lg text-neutral-600 dark:text-neutral-400">
+                        {{ $aboutContent.description | default "Learn more about our organization and mission." }}
+                    </p>
+                </div>
+            </div>
+
+            <!-- Content Section -->
+            <div class="lg:w-1/2">
+                {{ if $aboutContent.features }}
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-8 mb-8">
+                    {{ range $aboutContent.features }}
+                    <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 shadow-sm mb-6">
+                        {{ if .icon }}
+                        <div class="text-4xl mb-4">{{ .icon }}</div>
+                        {{ end }}
+                        <h3 class="text-lg sm:text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-3">
+                            {{ .title }}
+                        </h3>
+                        <p class="text-sm sm:text-base text-neutral-600 dark:text-neutral-400">
+                            {{ .description }}
+                        </p>
+                    </div>
+                    {{ end }}
+                </div>
+                {{ end }}
+
+                {{ if $aboutContent.mission }}
+                <div class="mb-8">
+                    <h3 class="text-xl sm:text-2xl font-bold text-neutral-800 dark:text-neutral-200 mb-4">
+                        Our Mission
+                    </h3>
+                    <p class="text-base sm:text-lg text-neutral-600 dark:text-neutral-400">
+                        {{ $aboutContent.mission }}
+                    </p>
+                </div>
+                {{ end }}
+
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

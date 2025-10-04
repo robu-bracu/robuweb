@@ -18,6 +18,9 @@ showThemeAttribution = true
 showAppearanceSwitcher = true
 showScrollToTop = true
 
+[Author]
+name = "Robotics Club of BRAC University"
+
 [homepage]
 layout = "home"
 homepageImage = "img/bg.jpg"
@@ -76,3 +79,24 @@ excludedKinds = [ ]
 
 [taxonomy]
 showTermCount = true
+
+[about]
+title = "About ROBU"
+description = "The Robotics Club of BRAC University (ROBU) is a student organization dedicated to fostering innovation, creativity, and technical excellence in robotics and automation."
+mission = "To provide a platform for students to explore robotics, develop technical skills, and contribute to the advancement of technology through hands-on projects and collaborative learning."
+features = [
+  { title = "Innovation", description = "We encourage creative thinking and innovative solutions to real-world problems." },
+  { title = "Learning", description = "Continuous learning through workshops, competitions, and collaborative projects." },
+  { title = "Community", description = "Building a strong community of robotics enthusiasts and future engineers." }
+]
+cta = { text = "Join Our Community", url = "/register" }
+
+[leadership]
+title = "Panel"
+description = "Meet the dedicated leaders who guide our robotics community and drive innovation forward."
+members = [
+  { name = "Fardeen Khan", position = "President", description = "The microcontroller of the bot, the mastermind behind every decision, carrying the whole club on his shoulders and guiding it towards a new dawn.", image = "img/panel/2025/1.jpg", social = { linkedin = "https://linkedin.com/in/fardeenkhan", email = "fardeen@robu.edu" } },
+  { name = "Ismam Hossain Redwan", position = "Vice President", description = "Second-in-command and the second-brain behind all actions and operations. When the captain is not there, he ensures everything stays right on track.", image = "img/panel/2025/2.jpg", social = { linkedin = "https://linkedin.com/in/ismamredwan", email = "ismam@robu.edu" } },
+  { name = "Md Asraful Islam Emon", position = "General Secretary of Administration", description = "With exceptional foresight and experience, supervising all administrative operations as the backbone of ROBU, ensuring internal management and smooth event execution.", image = "img/panel/2025/3.jpg", social = { linkedin = "https://linkedin.com/in/asrafulemon", email = "asraful@robu.edu" } },
+  { name = "Maisa Kabir", position = "General Secretary of Operations", description = "Responsible for the soul of ROBU, managing and coordinating projects to ensure the club stays on track towards its goals in robotics innovation.", image = "img/panel/2025/4.jpg", social = { linkedin = "https://linkedin.com/in/maisakabir", email = "maisa@robu.edu" } }
+]

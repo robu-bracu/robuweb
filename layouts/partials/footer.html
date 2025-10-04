@@ -1,13 +1,40 @@
 <footer id="site-footer" class="py-10 print:hidden">
+    {{/* Contact Information */}}
+    <div class="mb-8 pb-6 border-b border-neutral-200 dark:border-neutral-700">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="mb-6">
+                <h3 class="text-sm font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+                    Location
+                </h3>
+                <p class="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                    6th floor, D Block (6D-25L), Robotics Research Lab,<br>
+                    Brac University, Kha 224,<br>
+                    Bir Uttam Rafiqul Islam Ave,<br>
+                    Dhaka, Bangladesh
+                </p>
+            </div>
+            <div>
+                <h3 class="text-sm font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+                    Contact
+                </h3>
+                <p class="text-xs text-neutral-600 dark:text-neutral-400">
+                    <a href="mailto:club.robu@g.bracu.ac.bd"
+                        class="text-primary-600 dark:text-primary-400 hover:underline">
+                        club.robu@g.bracu.ac.bd
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
     {{/* Footer menu */}}
     {{ if .Site.Params.footer.showMenu | default true }}
     {{ if .Site.Menus.footer }}
     <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-        <ul class="flex flex-col list-none sm:flex-row">
+        <ul class="flex flex-row list-none">
             {{ range .Site.Menus.footer }}
-            <li
-                class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-                <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
+            <li class="flex mb-1 ltr:text-right rtl:text-left mr-16 last:mr-0">
+                <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center px-4 py-2"
                     href="{{ .URL }}" {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:" )
                     }}target="_blank" rel="noopener noreferrer" {{ end }} title="{{ .Title }}">
                     {{ if .Pre }}
@@ -23,6 +50,7 @@
     </nav>
     {{ end }}
     {{ end }}
+
     <div class="flex items-center justify-between">
         {{/* Copyright */}}
         {{ if .Site.Params.footer.showCopyright | default true }}
